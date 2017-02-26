@@ -1,0 +1,39 @@
+body{
+	background-color: #f1f2f5;
+	width: 500px;
+	height: 1024px;
+	margin: 0 auto;
+}
+
+.wrapper{
+	margin: 0 auto;
+    width: 500px;
+}
+
+.foto,
+.content,
+.info{
+	border-bottom: solid gray 1px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	text-transform: uppercase;
+	margin: 0;
+	font-family: sans-serif;
+	width: 580px;
+}
+
+img{
+	width: 255px;
+	margin: 20px 138px;
+}
+
+p{
+	color: #757575;
+}
+
+span{
+	margin-left: 50px;
+}
+	
