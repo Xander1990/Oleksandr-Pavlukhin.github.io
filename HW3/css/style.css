@@ -87,9 +87,9 @@ p{
 
 .footer-item{
 	display: inline-block;
-	margin: 0px 39px 0px 7px;
+	margin: 0 39px 0 7px;
 	padding: 20px;
-	line-height: 0px;
+	line-height: 0;
 }
 
 .footer-item:hover{
