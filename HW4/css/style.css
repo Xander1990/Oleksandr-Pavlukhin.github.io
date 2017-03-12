@@ -1,0 +1,149 @@
+body {
+	width: 100%;
+	height: 100%; 
+	background: url(../img/background.jpg);
+	font-family: Tahoma;
+}
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	background: white;
+	overflow: hidden;
+	box-shadow: 0.2em 0.2em 25px #031d28;
+}
+
+.contakt {
+	background-color: white;
+	float: right;
+	font-size: 14px;
+	color: #1793c6;
+	margin: 36px 45px 0px 0px;
+	line-height: 19px;
+	box-shadow: none;
+}
+
+.logo {
+	margin: 5px;
+	position: absolute;
+}
+
+.logo_photo {
+	position: relative;
+	margin-top: 36px;
+	margin-left: 45px;
+	padding: 0;
+}
+
+.logo_text{
+	margin-left: 120px;
+	position: absolute;
+	font-size: 12px;
+	color: #1793c6;
+	top: 130px;
+}
+
+.countries {
+	margin: 11px 45px 6px 0px;	
+	padding: 0;
+	float: right;
+	clear: both;
+}
+
+.countries >ul {
+	background-color: white;
+	font-size: 10px;
+	display: inline-block;
+	float: right;
+	box-shadow: none;
+}
+
+a {
+	color: #6eacc0;
+}
+
+.img {
+	display: inline-block;
+	clear: both;
+	width: 64px;
+	text-align: center;
+}
+
+.img_photo {
+	border-bottom: 1px solid #cacbcb;
+}
+
+ul {
+	margin: 0;
+	display: block;
+	background-color: #353535;
+	list-style: none;
+	box-shadow: 0.2em 0.2em 25px #031d28;
+	position: relative;
+}
+
+ul:after {
+	display: block;
+	content: '';
+	clear: both;
+	float: none;
+}
+
+ul.menu > li {
+	margin-left: 35px;
+	float: left;
+	position: relative;
+}
+
+ul.menu > li > a {
+	display: block;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+}
+
+ul.submenu {
+	display: none;
+	position: absolute;
+	line-height: 10px;
+	padding: 0;
+}
+
+ul.submenu >li > a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+}
+
+ul.menu > li:hover > ul.submenu {
+	display: block;
+}
+
+.info {
+	float: left;
+	background-color: #edeef0;
+	text-align: center;
+	color: #031d28;
+	margin: 0px;
+	padding: 10px;
+	line-height: 8px;
+}
+
+.news {
+	float: right;
+	background-color: #edeef0;
+	text-align: center;
+	color: #031d28;
+	margin: 0px;
+	padding: 10px;
+	line-height: 8px;
+}
+
+footer {
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	margin-top: 5px;
+}
