@@ -2,6 +2,7 @@ body {
 	width: 100%;
 	height: 100%; 
 	background: url(../img/background.jpg);
+	background-position: 0 -30px;
 	font-family: Tahoma;
 }
 
@@ -14,14 +15,18 @@ body {
 	box-shadow: 0.2em 0.2em 25px #031d28;
 }
 
-.contakt {
+.contact {
 	background-color: white;
 	float: right;
 	font-size: 14px;
-	color: #1793c6;
-	margin: 36px 45px 0px 0px;
+	color: #41a1b9;
+	margin: 12px 16px 0px 0px;
 	line-height: 19px;
 	box-shadow: none;
+}
+
+#our_contacts {
+	font-weight: bold;
 }
 
 .logo {
@@ -31,47 +36,71 @@ body {
 
 .logo_photo {
 	position: relative;
-	margin-top: 36px;
-	margin-left: 45px;
+	margin-top: 14px;
+	margin-left: 23px;
 	padding: 0;
 }
 
 .logo_text{
-	margin-left: 120px;
+	margin-left: 93px;
 	position: absolute;
 	font-size: 12px;
-	color: #1793c6;
-	top: 130px;
+	color: #41a1b9;
+	top: 109px;
 }
 
-.countries {
-	margin: 11px 45px 6px 0px;	
-	padding: 0;
+/* COUNTRY_FLAG */
+
+.countrys {
+	margin: 10px 24px 0 0;
+	padding-top: 20px;
+	background-color: white;
 	float: right;
 	clear: both;
-}
-
-.countries >ul {
-	background-color: white;
-	font-size: 10px;
-	display: inline-block;
-	float: right;
 	box-shadow: none;
 }
 
-a {
-	color: #6eacc0;
+li.country {
+	display: inline-block;
+	width: 53px;
+	height: 50px;
+	font-size: 10px;
 }
 
-.img {
-	display: inline-block;
-	clear: both;
-	width: 64px;
+a.country {
+	color: #138aa7;
 	text-align: center;
+	width: 53px;
+	position: absolute;
+	padding-top: 44px;
+	background: url(../img/flag.png) 5px 0 no-repeat;
 }
+
+a.country-nep {
+	background: url(../img/flag.png) -53px 0 no-repeat;
+}
+
+a.country-tib {
+	background: url(../img/flag.png) -109px 0 no-repeat;
+}
+
+a.country-but {
+	background: url(../img/flag.png) -164px 0 no-repeat;
+}
+
+a.country-shri {
+	background: url(../img/flag.png) -221px 0 no-repeat;
+}
+
+a.country-mald {
+	background: url(../img/flag.png) -278px 0 no-repeat;
+}
+
+/* COUNTRY_FLAG END */
 
 .img_photo {
-	border-bottom: 1px solid #cacbcb;
+	margin-top: 15px;
+	border: 1px solid #138aa7;
 }
 
 ul {
@@ -81,6 +110,8 @@ ul {
 	list-style: none;
 	box-shadow: 0.2em 0.2em 25px #031d28;
 	position: relative;
+	line-height: 5px;
+	font-size: 15px;
 }
 
 ul:after {
@@ -90,6 +121,20 @@ ul:after {
 	float: none;
 }
 
+.arrow1 {
+	background: url(../img/arrow.png) 105px 10px no-repeat;
+	width: 102px;
+}
+
+.arrow2 {
+	background: url(../img/arrow.png) 62px 10px no-repeat;
+	width: 102px;
+}
+
+.arrow3 {
+	background: url(../img/arrow.png) 92px 10px no-repeat;
+	width: 102px;
+}
 ul.menu > li {
 	margin-left: 35px;
 	float: left;
@@ -121,24 +166,30 @@ ul.menu > li:hover > ul.submenu {
 	display: block;
 }
 
+h3 {
+	font-weight: bold;
+	color: #424c43;
+	font-size: 17px;
+}
+
 .info {
 	float: left;
 	background-color: #edeef0;
 	text-align: center;
-	color: #031d28;
-	margin: 0px;
-	padding: 10px;
-	line-height: 8px;
+	color: #424c43;
+	line-height: 24px;
+	font-size: 14px;
+	padding: 14px;
 }
 
 .news {
 	float: right;
 	background-color: #edeef0;
 	text-align: center;
-	color: #031d28;
-	margin: 0px;
-	padding: 10px;
-	line-height: 8px;
+	color: #424c43;
+	line-height: 24px;
+	font-size: 14px;
+	padding: 14px;
 }
 
 footer {
