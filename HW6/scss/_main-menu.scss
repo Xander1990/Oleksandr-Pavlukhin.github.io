@@ -1,0 +1,66 @@
+.maine-menu {
+  font-family: "Lucida Sans Unicode";
+  overflow: hidden;
+  background: linear-gradient(to bottom, rgba(0,0,0,1) 1%,rgba(0,0,0,1) 2%,rgba(69,72,77,1) 8%,rgba(0,0,0,1) 60%);
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px;
+  margin: 3px auto;
+  padding: 4px 0;
+  width: 910px;
+
+  &__content {
+    margin: 0 90px;
+  }
+
+  &__punkt {
+    padding: 0 16px;
+    display: inline;
+    float: left;
+    &:hover {
+      border-radius: 14px;
+      background: linear-gradient(to top, #0e375c , #1f6787);
+    }
+
+  }
+}
+.right-block {
+  overflow: hidden;
+  width: 265px;
+  font-size: 11px;
+  color: #929b9f;
+  margin: 2px 10px;
+
+  &__goods1 {
+    margin: 2px 5px;
+    display: inline;
+    float: right;
+  }
+  &_sum1 {
+    margin: 4px 8px;
+    color: #0d5a8f;
+  }
+  &__goods2 {
+    margin: 2px 0;
+    display: inline;
+    float: right;
+  }
+  &_sum2 {
+    margin: 4px 8px;
+    color: #0d5a8f;
+  }
+
+  &__cart-img{
+    margin: 1px;
+    float: right;
+    width: 25px;
+    height: 20px;
+    background: url(../img/sprites.png) -126px -18px no-repeat;
+  }
+}
+
+.punkt-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #b1bcc0;
+  font-size: 14px;
+}

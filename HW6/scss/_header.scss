@@ -1,0 +1,123 @@
+.header {
+	margin: 0 auto;
+	width: 910px;
+	font-family: "Lucida Sans Unicode";
+}
+
+.phone {
+	margin-top: 13px;
+	margin-left: 6px;
+	float: left;
+}
+
+.phone__sprite-phone {
+	width: 21px;
+	height: 21px;
+	border-radius: 10px;
+	background: url(../img/sprites.png) -6px -16px no-repeat;
+	background-color: #0c3357;
+	float: left;
+}
+
+.phone__number {
+	font-size: 18px;
+	color: #5e696d;
+	text-decoration: none;
+	float: left;
+	font-family: Arial, serif;
+	margin-left: 3px;
+	margin-top: 2px;
+	letter-spacing: 0.6px;
+	&:hover {
+		border: none;
+	}
+}
+
+.data__data-form {
+	width: 495px;
+	margin: 9px 15px;
+	padding-bottom: 2px;
+	float: left;
+	background:linear-gradient(to top, #0e375b, #1e6383);
+	border-radius: 2px;
+	box-shadow: 3px 3px 2px rgba(203, 203, 203, 1);
+}
+
+.data__sprite-dada {
+	margin: 2px 3px;
+	float: left;
+	width: 21px;
+	height: 21px;
+	background: url(../img/sprites.png) -33px -16px no-repeat;
+}
+
+input[type="text"] {
+	float: left;
+	margin-right: 4px;
+	margin-top: 4px;
+	width: 110px;
+	font-size: 11px;
+	text-indent: 4px;
+	letter-spacing: 0.1px;
+	color: #97a2a6;
+}
+
+.data__enter {
+	text-decoration: none;
+	float: left;
+	margin-top: 5px;
+	margin-left: 3px;
+	letter-spacing: 0.1px;
+	font-size: 10.5px;
+	color: #ffffff;
+	&:hover {
+		color: #bfbfbf;
+		border-bottom: 1px solid;
+	}
+}
+
+.data__lost {
+	margin-left: 21px;
+	margin-top: 4px;
+	font-size: 12px;
+	color: #ffffff;
+	float: left;
+	text-decoration: none;
+	&:hover {
+		color: #bfbfbf;
+		border-bottom: 1px solid;
+	}
+}
+.mini-menu {
+	margin: 11px 4px;
+	width: 74px;
+	height: 20px;
+	float: left;
+	border-radius: 45px;
+	box-shadow: 0 0 1px;
+	&__home-img {
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		background: url(../img/sprites.png) -56px -18px no-repeat;
+	}
+
+	&__site-map {
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		background: url(../img/sprites.png) -83px -18px no-repeat;
+	}
+
+	&__mail-img {
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		background: url(../img/sprites.png) -108px -18px no-repeat;
+	}
+}
+
+.banner {
+	margin: 0 auto;
+	width: 910px;
+}
