@@ -1,0 +1,14 @@
+/*@import "tools";*/
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper__img {
+  background: url("../img/bg1.jpg") no-repeat scroll top;
+  background-size: cover;
+}
+
+.wrapper__purple {
+  background: linear-gradient(to bottom, #745083 0%, #684875 24%, #43304c 70%, #382940 86%, #322539 100%);
+}

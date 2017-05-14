@@ -1,0 +1,23 @@
+@import "_tools";
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  &__img {
+    background: url("../img/bg1.jpg") no-repeat scroll top;
+    background-size: cover;
+  }
+  &__purple {
+    background-color: $purple;
+  }
+  &__white {
+    background-color: $grey;
+  }
+  &__grey {
+    background-color: $dark-grey;
+  }
+  &__footer {
+    background: url("../img/bg-footer.png") no-repeat scroll top;
+  }
+}
+
