@@ -1,0 +1,39 @@
+.wrapper__img {
+  background: url("../img/bg1.jpg") no-repeat scroll top;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  font-family: League Gothic, open sans;
+  font-size: 24px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  .navbar {
+    margin: 22%;
+  }
+  .menu {
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 20%;
+    }
+    .menu__submenu {
+      display: none;
+    }
+    }
+
+
+
+.heading {
+  display: block;
+
+  &__heading-text {
+    display: none;
+  }
+  &__heading-img {
+    display: none;
+  }
+}
+
